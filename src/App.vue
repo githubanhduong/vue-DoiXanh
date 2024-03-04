@@ -1,6 +1,4 @@
-
 <template>
-
   <router-view></router-view>
 </template>
 
@@ -17,3 +15,12 @@ onMounted(() => {
 });
 
 </script>
+<style>
+  html, body {
+    background-color: white;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+</style>

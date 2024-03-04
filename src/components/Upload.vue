@@ -12,7 +12,7 @@
   
   <script setup>
   import { useToast } from "primevue/usetoast";
-  import { useStore } from '../object/User'
+  import { useStore } from '../object/Store'
   import router from '../router';
   
   const toast = useToast();
